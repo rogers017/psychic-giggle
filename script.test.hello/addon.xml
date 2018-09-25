@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.test.hello" name="kryptonite" version="0.0.1" provider-name="Bay Area Coder">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">cool movie addon</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>https://github.com/rogers017/phychic-giggle.git</website>
+        <email>Rogers_chris76@yahoo.com</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

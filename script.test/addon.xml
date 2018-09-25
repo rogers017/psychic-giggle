@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.test" name="kryptonite" version="0.0.1" provider-name="bay area coder">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">movies</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>www.kodi.tv</website>
+        <email>https://github.com/rogers017/psychic-giggle.git</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
